@@ -15,7 +15,10 @@
 .topo-site__título {
     color: var(--bc-light);
     font: var(--h1);
-    margin-inline: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-inline: 30px;
+
 }
 
 .topo-site__menu {
