@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
 #menu-seções {
-    font
+    font: var(--span)
 }
 
 .seções {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     padding: 14px 32px;
     border-bottom: 1px solid var(--stroke-color);
-    gap: 4px;
+    gap: 10px;
     flex-wrap: wrap;
 }
