@@ -15,6 +15,7 @@
 .topo-site__título {
     color: var(--bc-light);
     font: var(--h1);
+    margin-inline: auto;
 }
 
 .topo-site__menu {
