@@ -51,3 +51,11 @@ button {
 li {
     list-style: none;
 }
+
+main {
+    margin-top: 40px;
+}
+
+img {
+    max-width: 100%;
+}
