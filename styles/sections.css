@@ -24,6 +24,7 @@
 
         h2 {
             margin-top: 8px;
+            max-height: 127px;
         }
     }
 }
