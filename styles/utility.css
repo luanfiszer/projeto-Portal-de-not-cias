@@ -8,6 +8,10 @@
     display: grid;
 }
 
+.flex {
+    display: flex;
+}
+
 .grid-flow-col {
     grid-auto-flow: column;
 }
@@ -16,15 +20,27 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.grid-flow-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .gap-16 {
     gap: 16px;
+}
+
+.gap-80 {
+    gap: 80px;
+}
+
+.gap-24 {
+    gap: 24px;
 }
 
 .text-2xl {
     font: var(--h1);
 }
 
-.text-2xl {
+.text-xl {
     font: var(--h2);
 }
 
