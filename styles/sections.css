@@ -1,9 +1,5 @@
 #features {
-    img {
-        height: 100%;
-        object-fit: cover;
-        border-radius: 4px;
-    }
+    
     .card {     
         position: relative;   
         overflow: hidden;     
@@ -36,30 +32,7 @@
 }
 
 #weekly {
-    img {
-        height: 160px;
-        object-fit: cover;
-        border-radius: 4px;
-
-    }
-
-    .card {
-        position: relative;
-
-
-       .p-absolute {
-        position: absolute;
-       }
-
-       .margin-8 {
-        margin: 8px;
-       }
-       
-       figcaption {
-        margin-top: 8px;
-       }
-    }
-
+    
     header {
         justify-content: space-between;
         border-top: 1px solid var(--stroke-color);
@@ -84,4 +57,64 @@
         }
     }
 
+    
+
+    .card {
+        position: relative;
+
+
+       .p-absolute {
+        position: absolute;
+       }
+
+       .margin-8 {
+        margin: 8px;
+       }
+       
+       figcaption {
+        margin-top: 8px;
+       }
+    }
+
+
+}
+
+#ai {
+    header {
+        justify-content: space-between;
+        border-top: 1px solid var(--stroke-color);
+        padding-top: 24px;
+        font: var(--span);
+
+        a {
+            span {
+                background-image: url(../assets/arrow-right.svg);
+                width: 16px;
+                height: 16px;
+            }
+            
+            &:hover {
+                span {
+                    background-image: url(../assets/ArrowRight-hover.svg);
+                    width: 16px;
+                    height: 16px;
+                }
+
+            }
+        }
+    }
+
+    img {
+        width: 176px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+
+    h3 {
+        margin-block: 8px 4px;
+    }
+}
+
+#aside {
+    
 }
