@@ -12,6 +12,11 @@
     display: flex;
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
+
 .grid-flow-col {
     grid-auto-flow: column;
 }
@@ -22,6 +27,26 @@
 
 .grid-flow-4 {
     grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-flow-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-column-4 {
+    grid-column: 1/ 4;
+}
+
+.grid-column-1 {
+    grid-column: 4/ 6;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.gap-12 {
+    gap: 12px;
 }
 
 .gap-16 {
